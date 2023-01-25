@@ -26,10 +26,10 @@ accounts:
   - name: jane
     coins: ["100000000timpi"]
 validators:
-  name: alice
-  staked: "10000000000utimpi"
-  name: tim
-  staked: "10000000000utimpi"
+  - name: alice
+    bonded: "10000000000utimpi"
+  - name: tim
+    bonded: "10000000000utimpi"
 client:
   openapi:
     path: "docs/static/openapi.yml"
