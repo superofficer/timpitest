@@ -1,5 +1,6 @@
 version: 1
 genesis:
+  chain_id: "timpitest"
   app_state:
     staking:
       params:
@@ -15,7 +16,7 @@ genesis:
         max_deposit_period: "172800000000ns"
       voting_params:
         voting_period: "172800000000ns"
-chain_id: "timpitest"
+
 accounts:
 - name: alice
   coins: 
