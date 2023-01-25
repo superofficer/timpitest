@@ -1,3 +1,4 @@
+version: 1.01
 genesis:
   app_state:
     staking:
@@ -24,7 +25,7 @@ accounts:
     coins: ["100000000timpi", "100000000000utimpi"]
   - name: jane
     coins: ["100000000timpi"]
-validator:
+validators:
   name: alice
   staked: "10000000000utimpi"
   name: tim
